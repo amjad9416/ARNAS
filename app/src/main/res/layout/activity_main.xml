@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--    <TextView-->
+<!--        android:id="@+id/textView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/button"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:text="Find"-->
+<!--        android:textColor="#ff0000"-->
+<!--        android:textSize="40dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        tools:ignore="MissingConstraints"-->
+<!--        tools:layout_editor_absoluteY="88dp" />-->
+
+    <!--    <RelativeLayout-->
+<!--        android:layout_width="251dp"-->
+<!--        android:layout_height="459dp"-->
+<!--        android:background="@drawable/half_red_background"-->
+<!--        tools:layout_editor_absoluteX="80dp"-->
+<!--        tools:layout_editor_absoluteY="136dp">-->
+
+<!--        &lt;!&ndash; Add your other views here &ndash;&gt;-->
+
+<!--    </RelativeLayout>-->
+
+    <ImageView
+        android:layout_width="1000dp"
+        android:layout_height="900dp"
+        android:background="@drawable/red_triangle"
+        android:rotation="180"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.899"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.502">
+
+    </ImageView>
+
+    <com.example.arna1.CurvedTextView
+        android:id="@+id/curvedTextView"
+        android:layout_width="200dp"
+        android:layout_height="96dp"
+        android:fontFamily="serif"
+        android:rotation="-1"
+        android:scaleType="fitXY"
+        android:text="F I N D"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.161"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.118"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/button"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:background="@android:color/transparent"
+        android:onClick="user_click"
+        android:scaleType="fitXY"
+        android:src="@drawable/white_location2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.218"
+        tools:ignore="UsingOnClickInXml" />
+
+    <ImageButton
+        android:id="@+id/button2"
+        android:layout_width="204dp"
+        android:layout_height="237dp"
+        android:background="@android:color/transparent"
+        android:onClick="manager_click"
+        android:scaleType="fitXY"
+        android:src="@drawable/blood_drop1"
+        android:text="HOSPITAL"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.832"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.806" />
+
+    <com.example.arna1.CurvedTextView1
+        android:id="@+id/curvedTextView1"
+        android:layout_width="176dp"
+        android:layout_height="166dp"
+        android:layout_centerInParent="true"
+        android:fontFamily="serif"
+        android:rotation="60"
+        android:text="             D  O  N  A  T  E"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.787"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.907" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
