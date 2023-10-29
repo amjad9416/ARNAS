@@ -14,3 +14,9 @@ ARNAS is an Android application used to track the nearby blood donors by simply 
 - To Donate BLood , Navigate to :'Donate Button'
 - To add details ,Fill the given form and click on 'Submit'
 - To search for Donors , Specify the BLood Group and CLick on 'Find'
+
+## Features
+
+- Search for BLood Donors
+- Donate Blood 
+- Location of Donors
